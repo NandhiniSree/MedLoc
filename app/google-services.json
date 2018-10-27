@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "339137222177",
+    "firebase_url": "https://medloc-8cfbf.firebaseio.com",
+    "project_id": "medloc-8cfbf",
+    "storage_bucket": "medloc-8cfbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339137222177:android:94e310337e98d0ca",
+        "android_client_info": {
+          "package_name": "com.example.keerthu.medloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339137222177-r4mdssko785q4plkqd9nvop62np8gok8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.keerthu.medloc",
+            "certificate_hash": "6877c83b99104293b4370a03f018faffa638176d"
+          }
+        },
+        {
+          "client_id": "339137222177-cafi2miphmlsf0tchpb3e086ct98g177.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5cTKK1MdZqkR_oD-MPX3CLoTh7b3_zx4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339137222177-cafi2miphmlsf0tchpb3e086ct98g177.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

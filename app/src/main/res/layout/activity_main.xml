@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imgECG"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_below="@+id/btnLocation"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/txtRadius"
+        android:layout_toRightOf="@+id/txtRadius"
+        android:onClick="onECG"
+        app:srcCompat="@drawable/ecg"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Space
+        android:id="@+id/SpcImage"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="Kindly let us detect your location first!"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <Space
+        android:id="@+id/Spc1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onLocation"
+        android:text="    Detect my location   "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Space
+        android:id="@+id/Spc2"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/txtMedicine"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="Medicine name"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Space
+        android:id="@+id/Spc3"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/edtMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter a part or word of the medicine name"
+        android:inputType="text" />
+
+    <Space
+        android:id="@+id/Spc4"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/txtRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum radius"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <Space
+        android:id="@+id/Spc5"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/edtRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the maximum radius to locate"
+        android:inputType="number" />
+
+    <Space
+        android:id="@+id/Spc6"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onSearch"
+        android:text="     search  "
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+</LinearLayout>
